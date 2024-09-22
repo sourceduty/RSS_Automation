@@ -20,6 +20,8 @@ Moreover, the GPT can integrate with third-party services like Google Sheets, No
 [Automated Business](https://github.com/sourceduty/Automated_Business)
 <br>
 [Automation Sim](https://github.com/sourceduty/Automation_Sim)
+<br>
+[News](https://github.com/sourceduty/News)
 
 ***
 Copyright (C) 2024, Sourceduty - All Rights Reserved.
