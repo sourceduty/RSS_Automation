@@ -11,6 +11,23 @@ In addition to basic parsing, RSS Automation offers advanced features such as co
 Moreover, the GPT can integrate with third-party services like Google Sheets, Notion, and Zapier to automate and streamline workflows. It supports content aggregation from multiple feeds into a single unified feed and offers tools for data analysis to identify trends and patterns. These features make it a versatile tool for anyone looking to optimize their content management and gain deeper insights from their RSS feed data.
 
 #
+### Social Media RSS Examples
+
+| Platform    | Feed Type        | Feed URL Example                                      | Notes                                             |
+|-------------|------------------|-------------------------------------------------------|---------------------------------------------------|
+| Twitter     | User Tweets      | `https://rss.app/user/[USERNAME]`                     | Use third-party services like RSS.app or TwitRSS. |
+|             | Hashtag Feeds    | `https://rss.app/hashtag/[HASHTAG]`                   | Third-party services required.                    |
+| Reddit      | Subreddit Feeds  | `https://www.reddit.com/r/[subreddit]/.rss`           | Native support; add `.rss` to subreddit URL.      |
+|             | User Feeds       | `https://www.reddit.com/user/[username]/.rss`         | Native support for user posts/comments.           |
+| YouTube     | Channel Feeds    | `https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL_ID]` | Replace `[CHANNEL_ID]` with the channel ID.   |
+|             | Playlist Feeds   | `https://www.youtube.com/feeds/videos.xml?playlist_id=[PLAYLIST_ID]` | Replace `[PLAYLIST_ID]` with the playlist ID. |
+| Instagram   | User Posts       | `https://rssbridge.example/bridge/?action=display&bridge=Instagram&u=[USERNAME]` | Use RSSBridge or other third-party tools.        |
+| Facebook    | Page Posts       | `Generated via Zapier or similar services`            | Requires third-party integration.                 |
+| LinkedIn    | Page Posts       | `Generated via PhantomBuster or similar services`     | Requires third-party integration.                 |
+| Medium      | User Feeds       | `https://medium.com/feed/@[username]`                 | Replace `[username]` with the Medium username.    |
+|             | Tag Feeds        | `https://medium.com/feed/tag/[tag]`                   | Replace `[tag]` with the Medium tag.              |
+
+#
 ### Related Links
 
 [ChatGPT](https://github.com/sourceduty/ChatGPT)
